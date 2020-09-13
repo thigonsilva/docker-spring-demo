@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  datasource: 
+    url: jdbc:postgresql://localhost:15432/postgres
+        
+logging:
+  level: 
+    org.springframework.web: info
+    org.springframework.data: info
+    org.hibernate: info
+    com.example.dockerdemo: debug
